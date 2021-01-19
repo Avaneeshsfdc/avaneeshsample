@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>AutoLaunchedOutputVariables__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Tell the component about any additional parameters it does not already know about (see docs)</inlineHelpText>
+        <label>Autolaunched Output Variables</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Flow__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Flow</label>
+        <length>64</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsAutoLaunched__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>In order to use Autolaunched Flows you must also complete setup via the Flow Factory tab</inlineHelpText>
+        <label>Is Autolaunched</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>Dynamic Flow Component</label>
+    <pluralLabel>Dynamic Flow Components</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
