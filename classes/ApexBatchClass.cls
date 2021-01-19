@@ -11,6 +11,11 @@ public class ApexBatchClass implements Database.batchable<Sobject>,Database.Stat
       counter1++;
       system.debug('==>>counter'+counter);
       system.debug('==>>counter'+counter1);
+counter ++;
+      counter1++;
+      system.debug('==>>counter'+counter);
+      system.debug('==>>counter'+counter1);
+//changes avi
    }
    
    public void finish(Database.batchableContext bc){
